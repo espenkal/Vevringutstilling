@@ -1,0 +1,11 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+	font-weight: 300;
+}
+.navbar-nav {
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
