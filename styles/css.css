@@ -43,3 +43,9 @@
 .dropdown-item {
 	font-size: 0.8em;
 }
+.card{
+    width: 225px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
