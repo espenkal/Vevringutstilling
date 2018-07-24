@@ -101,7 +101,7 @@ footer{
 	left:0;
 	width:100%;
 	height:200px;
-	background:#000;
+	background: grey;
 	color:#fff;
 	z-index:-1;
   }
@@ -110,3 +110,10 @@ footer{
 	background:#fff;
 	z-index:1;
   }
+.padding {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+img {
+	width: 100%;
+}
