@@ -67,36 +67,41 @@
 		</div>
 	</div>
 	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				row 1
-			</div>
-		</div>
+		<h1 class="text-center padding">Kontakt oss</h1>
 		<div class="row">
 			<div class="col-md-4">
-				1 of 3
+				<div id="googleMap" style="width:100%;height:400px;"></div>
 			</div>
-			<div class="col-md-4">
-				1 of 3
+			<div class="col-md-4 ">
+					<div class="contact-form">
+							<form action="">
+								<input type="text" name="name" placeholder="Navn" />
+								<input type="email" name="e-mail" placeholder="E-postadresse" />
+								<input type="tel" name="phone" placeholder="Telefon"/>
+								<textarea name="text" id="" rows="5" placeholder="Di melding"></textarea>
+								<button class="btn-send">Send</button>
+							</form>
+					</div>
 			</div>
-			<div class="col-md-4">
-				1 of 3
-			</div>
+			<div class="col-md-4">Kontaktinformasjon og adresse</div>
 		</div>
 	</div>
 </div>
 	<footer>
-			<div Class="container">
-				<div CLass="row">
-					Footer Content
-				</div>
+		<div Class="container">
+			<div CLass="row">
+				Footer Content
+			</div>
 			</div>
 		</footer>
 
 	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS, then google map API -->
+	<script src="../js/js.js"></script>	
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACm0fxlEAMyStFMlj8BuCQdPFzMuW3nZc&callback=myMap"></script>
+	
 </body>
 </html>
