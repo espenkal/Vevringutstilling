@@ -53,7 +53,7 @@
 /*PUBLIKASJONAR*/
 .img-pdfs {
 	opacity: 1;
-	display: block;
+	display: inline-block;
 	width: 100%;
 	height: auto;
 	transition: .5s ease;
@@ -162,4 +162,10 @@ footer{
   font-weight: 700;
   margin: 2% 8%;
   border: none;
+}
+.carousel-inner {
+  height: 500px;
+}
+.img-header {
+  max-height: 350px;
 }
