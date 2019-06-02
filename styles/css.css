@@ -10,10 +10,11 @@
 .navbar-nav {
   text-transform: uppercase;
   font-size: 0.8em;
-  background-color: #FFFFFF;
+  background-color: white;
 }
 
-.navbar.navbar-expand-lg.navbar-light.bg-light {
+
+.navbar.navbar-expand-lg.navbar-light.bg-white {
   z-index: 3;
   padding-left: 0%;
   padding-right: 0%;
@@ -22,6 +23,7 @@
 .navbar-collapse {
   color: black;
 }
+
 
 .nav-link {
   padding-right: 1rem !important;
